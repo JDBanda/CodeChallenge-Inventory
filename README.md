@@ -1,4 +1,4 @@
-# Desafio de código - Inventario
+# Desafio de código - Inventario 
 En este repositorio se puede encontrar el código base para clonar la API del inventario.
 
 ## Generalidades
@@ -19,4 +19,23 @@ Se han incluido dos archivos adicionales para que la clonación se realice sin p
 - [Documentación de la API](https://documenter.getpostman.com/view/13042173/UV5ZDHh5)
 - [Entorno y collección de API](https://www.postman.com/JDBanda/workspace/code-challenge-inventory/overview)
 
-# CodeChallenge - Inventory
+# CodeChallenge - Inventory 
+En este repositorio se puede encontrar el código base para clonar la API del inventario.
+
+## General information
+It has been included two extra files to reduce clonning operation problems.
+- **Mixtures file:** It is basically the db.json file but formatted to be imported with django into database records.
+- **Requirements file:** Python packages to install.
+
+## How to use it
+- Clone the repo with `git clone <url>`
+- Create a virtual environment, no matter the tool the important part is to use python 3.7 at least
+- When you are into the virtual environment it will be nessesary to copy the requirements `pip install -r requirements.txt`
+- Then execute migrations `python manage.py migrate`
+- Copy the mixture for testing data `python manage.py loaddata fixture.json`
+- Verify the DB credentials in the file CodeChallengeInventory/setting.py for your local instance
+- Finally you could run the server with `python manage.py runserver`
+
+## Postman
+- [Documentación de la API](https://documenter.getpostman.com/view/13042173/UV5ZDHh5)
+- [Entorno y collección de API](https://www.postman.com/JDBanda/workspace/code-challenge-inventory/overview)
