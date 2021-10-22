@@ -17,7 +17,7 @@ Se han incluido dos archivos adicionales para que la clonación se realice sin p
 
 ## Postman
 - [Documentación de la API](https://documenter.getpostman.com/view/13042173/UV5ZDHh5)
-- [Entorno y collección de API](https://www.postman.com/JDBanda/workspace/code-challenge-inventory/overview)
+- [Entorno y colección de API](https://www.postman.com/JDBanda/workspace/code-challenge-inventory/overview)
 
 # CodeChallenge - Inventory 
 En este repositorio se puede encontrar el código base para clonar la API del inventario.
@@ -37,5 +37,5 @@ It has been included two extra files to reduce clonning operation problems.
 - Finally you could run the server with `python manage.py runserver`
 
 ## Postman
-- [Documentación de la API](https://documenter.getpostman.com/view/13042173/UV5ZDHh5)
-- [Entorno y collección de API](https://www.postman.com/JDBanda/workspace/code-challenge-inventory/overview)
+- [API Documentation](https://documenter.getpostman.com/view/13042173/UV5ZDHh5)
+- [API Environment and collection](https://www.postman.com/JDBanda/workspace/code-challenge-inventory/overview)
